@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+
+block content 
+    section#introSection
+        section
+          div.big Welcome to Priyanka's Dance Academy
+          div.small Dance Your Soul Away
+    section#missionSection
+          h2 Our mission  
+          div.card
+            h3 Dance perfection 
+            div.card-box
+                div.card-image 
+                    img(src="static/1.jpg")
+                div.card-content 
+                    p One of the leading dance academy in country
+
+          div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-image 
+                    img(src="static/2.jpg")
+                div.card-content 
+                    p One of the leading dance academy in country
+          div.card
+            h3 Expert teaching 
+            div.card-box
+                div.card-image 
+                      img(src="static/3.jpg")
+                div.card-content 
+                      p One of the leading dance academy in country
+
+    section#sponsorSection
+          h2 Our sponsors
+          div#sponsors
+              img(src="/static/logo1.png",alt="Sponsor image",class="spImage")
+              img(src="/static/logo2.png",alt="Sponsor image",class="spImage")
+              img(src="/static/logo3.png",alt="Sponsor image",class="spImage")
+              img(src="/static/logo4.png",alt="Sponsor image",class="spImage")
+
+block foot  
+    footer#footer 
+        |copyright © 2022 priyankadanceacademy.com | All rights reserved

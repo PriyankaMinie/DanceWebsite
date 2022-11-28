@@ -1,0 +1,3 @@
+to start MongoDb , start a new terminal and type below commands :
+mongod
+npm install mongoose --save
