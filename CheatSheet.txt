@@ -5,6 +5,8 @@ git init
 git add .
 git commit -m "Initial commit"
 git status
+git remote add origin git@github.com:PriyankaMinie/DanceWebsite.git  //SSH of your repository
+
 
 ls -al ~/.ssh                                                       //Check for existing SSH keys   
 ssh-keygen -t rsa -b 4096 -C "priyanka.mini07@gmail.com"           //If you don't, generate one (Press Enter to accept the default file location)
